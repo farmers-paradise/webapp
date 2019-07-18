@@ -9,6 +9,12 @@ class Crop {
 }
 
 class Field {
+  int flatPos;
+
+  int x;
+
+  int y;
+
   Crop crop;
 
   DateTime sowed;

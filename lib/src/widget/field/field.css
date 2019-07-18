@@ -1,2 +1,4 @@
-:root {
+:host {
+    display: block;
+    background-color: brown;
 }

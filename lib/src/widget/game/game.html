@@ -1,9 +1,5 @@
-<div class="header">
-    <!-- TODO Show coins -->
-    <!-- TODO Show water -->
-    <!-- TODO Show seeds -->
-</div>
+<header-view></header-view>
 
-<estate-view [player.estate]></estate-view>
+<estate-view *ngIf="player != null" [estate]="player.estate"></estate-view>
 
-<!-- TODO Tools -->
+<tools-view></tools-view>

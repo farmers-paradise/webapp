@@ -7,7 +7,12 @@ class MockService implements MyService {
     ..coins = 10
     ..estate = (Estate()
       ..size = 5
-      ..fields = {})
+      ..fields = {
+        1: Field()
+          ..x = 0
+          ..y = 1
+          ..flatPos = 1
+      })
     ..seedInventory = {};
 
   Future<Player> get me async => _me;
