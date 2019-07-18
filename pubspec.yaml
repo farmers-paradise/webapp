@@ -1,0 +1,21 @@
+name: webapp
+description: A web app that uses AngularDart Components
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: teja <tejainece@gmail.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  angular:
+  angular_components:
+  web3dart:
+
+dev_dependencies:
+  angular_test:
+  build_runner:
+  build_test:
+  build_web_compilers:
+  pedantic: ^1.0.0
+  test: ^1.5.1
